@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+margin: 0;
+padding: 0;
+font-family: Avenir,Apercu,Roboto,sans-serif;
+color: #ffff;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header{
+    margin-top: 10px;
+    width: 100vw;
+    height: 50px;
+    display: flex ;
+    justify-content: space-around;
+}
+.header>.text{
+    display: flex;
+    justify-content: space-around;
+}
+.text>a{
+    
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 10px 0px 0px;
+}
+.top{
+    width: 100vw;
+    height: 600px;
+    margin: 0;
+    background-image: url(top-backgrond.webp);
+    background-size: cover;
+}
+.top>.container{
+    padding-top: 200px;
+    margin-left: 190px;
+    font-size: 30px;
+    font-weight:900;
+}
+.text>p{
+    font-size: 20px;
+}
+.link{
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+.learn-more>a{
+    font-size: 15px;
+    color: #ffff;
+    position: relative;
+    left: 25%;
+}
+.learn-more{
+    height: 45px;
+    width: 10vw;
+    background-color: #00c65e;
+}
+.buy-now>a{
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+    color: #00c65e;
+}
+.buy-now{
+    height: 45px;
+    width:10vw;
+    border:1px solid #00c65e;
+}
+a:hover{
+    opacity: 0.6;
+}
+
+h2{
+    margin: 0;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 50vw 50vw; 
+    grid-template-rows: 50vh 50vh ;
+    gap: 10px;
+
+}
+.bottom>.top-left{
+    background-image: url(top-left.webp);
+    background-size:cover;
+}
+.top-right{
+    background-image: url(top-right.webp);
+    background-size:cover;
+}
+.bottom-left{
+    background-image: url(bottom-left.webp);
+    background-size: cover;
+
+}
+.bottom-right{
+    background-image: url(bottom-right.webp);
+    background-size: cover;
+}
+hr{
+    margin-top: 80px;
+    width: 80%;
+}
+.footer{
+    background-color:rgba(187,187,187,0.6);
+    margin-top: 40px;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-inline-start: 0;
+    padding-top: 20px;
+}
+li{
+    padding: 10px;
+}
+.footer>div{
+    margin-top: 10px;
+}
+
